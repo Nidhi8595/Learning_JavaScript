@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#main {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 30px;
+
+    background-color: aliceblue;
+
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.400), 0 -6px 8px rgba(0, 0, 0, 0.400), 6px 0 8px rgba(0, 0, 0, 0.400), -6px 0 8px rgba(0, 0, 0, 0.400);
+
+}
+
+#capsule {
+    width: 50%;
+    height: 6%;
+
+    padding: 10px;
+
+    position: absolute;
+    top: 20px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.people {
+    position: absolute;
+    top: 60px;
+    /* height: 80%; */
+    width: 100%;
+
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.person {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    contain: content;
+}
+
+.person h3 {
+    font-size: 16px;
+    font-family: monstrett;
+    font-weight: 500;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
